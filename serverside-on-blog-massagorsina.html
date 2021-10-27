@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="resources\css\styles.css">
+        <style>
+            @font-face {
+	font-family: shabnam;
+	src: url("../../vendors/fonts/shabnam-font-v2.4.0/Shabnam.ttf");
+}
+
+@font-face {
+	font-family: yekanRegular;
+	src: url("../../vendors/fonts/yekan-regular.ttf");
+}
+
+@font-face {
+	font-family: vazirLight;
+	src: url("../../vendors/fonts/vazir-font-v16.1.0/Vazir-Light.ttf");
+}
+
+@font-face {
+	font-family: vazirThin;
+	src: url("../../vendors/fonts/vazir-font-v16.1.0/Vazir-Thin.ttf");
+}
+
+@font-face {
+	font-family: vazirMedium;
+	src: url("../../vendors/fonts/vazir-font-v16.1.0/Vazir-Medium.ttf");
+}
+
+@font-face {
+	font-family: Bkoodak;
+	src: url("../../vendors/fonts/B\ Koodak\ Bold.ttf");
+}
+
+@font-face {
+	font-family: bBadr;
+	src: url("../../vendors/fonts/B_Badr.ttf");
+}
+
+@font-face {
+	font-family: bBadrBold;
+	src: url("../../vendors/fonts/B_Badr_Bold.ttf");
+}
+
+@font-face {
+	font-family: bZar;
+	src: url("../../vendors/fonts/B_Zar_0.ttf");
+}
+
+@font-face {
+	font-family: bZarBold;
+	src: url("../../vendors/fonts/B_Zar_Bold_0.ttf");
+}
+
+@font-face {
+	font-family: farNazanin;
+	src: url("../../vendors/fonts/Far_Nazanin.ttf");
+}
+
+@font-face {
+	font-family: farTitr;
+	src: url("../../vendors/fonts/Far_TitrBd.ttf");
+}
+
+@font-face {
+	font-family: Unicorna;
+	src: url("../../vendors/fonts/UnicornCalligraphy-oK7B.ttf");
+}
+
+@font-face {
+	font-family: Unicorn;
+	src: url("../../vendors/fonts/GoodUnicornRegular-Rxev.ttf");
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body { 
+    background-image: url(http://cdn.cnn.com/cnnnext/dam/assets/180618165731-06-relaxing-places---stanley-park.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+}
+
+.nav {
+    background-color: chartreuse;
+    height: 70px;
+    width: 100%;
+}
+
+.right-nav {
+    float: right;
+    margin-right: 25px;
+}
+
+.right-nav section {
+    float: right;
+    display: inline-block;
+    margin: 35px 15px 0;
+    transform: translate(0, -50%);
+    font-size: 20px;
+    font-family: shabnam;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.right-nav section:hover {
+    color: darkgoldenrod;
+    transition: 0.5s;
+}
+
+.center-brand {
+    display: inline-block;
+    margin: 35px 50% 15px;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+    font-family: Unicorn;
+    position: absolute;
+    
+}
+.left-nav {
+    float: left;
+    
+}
+
+.left-nav img, section {
+    float: right;
+    display: inline-block;
+    margin: 35px 0 0 15px;
+    transform: translate(0, -50%);
+    font-size: 20px;
+    font-family: shabnam;
+    
+}
+
+.left-nav img {
+    height: 40px;
+    margin-left: 5px;
+}
+
+.left-nav section {
+    background-color: cyan;
+    border-radius: 50px;
+    padding: 4px 14px 5px;
+}
+
+.sticky-footer {
+    width: 80%;
+    height: 60px;
+    background-color: deeppink;
+    border-radius: 50px;
+    position: fixed;
+    bottom: 0;
+    margin: 0 50% -30px;
+    transform: translate(-50%, 0);
+}
+
+.sticky-footer-note {
+    float: right;
+    right: 15%;
+    bottom: 2px;
+    transform: translate(0, 0);
+    position: fixed;
+}
+
+.sticky-footer-note p {
+    float: right;
+    display: inline-block;
+    margin-left: 35px;
+    font-size: 18px;
+}
+
+.kharid-btn {
+    float: right;
+    display: inline-block;
+    font-size: 16px!important;
+    font-family: shabnam;
+    background-color: cyan;
+    border-radius: 50px;
+    padding: 1px 14px 0px;
+    margin-right: 200px;
+}
+        </style>
+    </head>
+    <body>
+
+        <section class="nav">
+            <section class="right-nav">
+                <section>خانه</section>
+                <section>پیشنهادها</section>
+                <section>درباره‌ ما</section>
+            </section>
+            <section class="center-brand">
+                Massagor
+            </section>
+            <section class="left-nav">
+                <img class="user-icon" src="https://upload.wikimedia.org/wikipedia/commons/9/99/Sample_User_Icon.png" alt="">
+                <section class="user-name">سینا جدیر</section>
+            </section>
+        </section>
+        
+        <section class="sticky-footer" dir="rtl"> 
+        </section>
+        <section class="sticky-footer-note">
+            <p>
+                مانده: ۸۵ ماج
+            </p>
+            <p>
+                وجه قابل پرداخت: ۴۰ هزارتومان
+            </p>
+            <p>
+                پرداخت حداکثر تا: ۱۴۰۰/۰۸/۳۰
+            </p>
+            <p class="kharid-btn">
+                خرید ماج
+            </p>
+        </section>
+        
+        <script src="resources\js\index.js" async defer></script>
+    </body>
+</html>
